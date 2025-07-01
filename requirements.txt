@@ -1,0 +1,22 @@
+# This file lists the core Python packages required to run the facial recognition dashboard.
+# These can be installed in a Kaggle Notebook using `!pip install <package-name>`
+# or locally using `pip install -r requirements.txt`.
+
+# Core library for facial recognition models like ArcFace
+deepface
+
+# For plotting the final dashboards and displaying images
+matplotlib
+
+# For image reading (cv2.imread) and basic image processing
+# This is a dependency of deepface, but it's good practice to list it explicitly.
+opencv-python
+
+# For data handling and manipulation (DeepFace returns results as a DataFrame)
+pandas
+
+# For numerical operations, especially creating blank images for the dashboard
+numpy
+
+# For creating user-friendly progress bars during long operations
+tqdm
